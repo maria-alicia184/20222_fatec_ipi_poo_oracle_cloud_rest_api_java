@@ -11,4 +11,9 @@ public class Pessoa{
     private String nome;
     private int idade;
     private String hobby;
+
+    @Override
+    public String toString(){
+        return String.format("nome: %s", nome);
+    }
 }
